@@ -1,11 +1,9 @@
 var React = require('react');
+var Hello2 = require('./Hello2');
 var Hello = React.createClass({
 	render() {
 		return (
-			<h1>
-				<span style={{color:"red",fontWeight:"bold"}}>Hello </span> 
-				{this.props.name}!
-			</h1>
+			<Hello2 name="smile11" />
 		)
 	}
 });

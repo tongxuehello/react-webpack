@@ -4,6 +4,6 @@ var Hello = require('./Hello');
 
 
 ReactDOM.render(
-  <Hello name="aaa" />,
-  document.getElementById('container')
+	<Hello />,
+	document.getElementById('container')
 );
